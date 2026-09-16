@@ -1,4 +1,5 @@
 # Student Management System
+🌐 Live Web Link / Demo link: http://localhost:5173/
 
 A full-stack CRUD web application built with **React**, **Django REST Framework**, and **SQLite**, following the standard CRUD-application SOP (requirement analysis → design → build → validate → test → document).
 
