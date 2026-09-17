@@ -1,4 +1,8 @@
 # Student Management System
+web link: https://student-management-system-jaanu2.vercel.app
+## Live Demo
+- **Frontend:** https://student-management-system-jaanu2.vercel.app
+- **Backend API:** https://student-management-system-qhvv.onrender.com/api/
 
 A full-stack CRUD web application built with **React**, **Django REST Framework**, and **SQLite**, following the standard CRUD-application SOP (requirement analysis → design → build → validate → test → document).
 
