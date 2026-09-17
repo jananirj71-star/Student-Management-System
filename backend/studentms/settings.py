@@ -28,8 +28,7 @@ SECRET_KEY = os.environ.get(
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*'] 
 
 
 # Application definition
@@ -126,7 +125,7 @@ STATIC_URL = 'static/'
 
 # CORS - allow the React dev server to talk to this API.
 # In production, replace with the actual deployed frontend origin(s).
-CORS_ALLOWED_ORIGINS = [
+CORS_ALLOW_ALL_ORIGINS = True = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://localhost:3000",
